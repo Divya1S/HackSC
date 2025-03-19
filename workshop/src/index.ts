@@ -65,7 +65,7 @@ const analyzeImageConfig: ToolConfig = {
     const response = await result.response;
     const aiResponse: AIResponse = JSON.parse(response.text());
 
-    return {
+    return {        
       text: `Analyzed image: ${aiResponse.scenario} with ${aiResponse.obstacles.length} obstacles`,
       data: aiResponse,
       ui: {
