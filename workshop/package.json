@@ -1,0 +1,23 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "DAIN service for indoor navigation assistance",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "dain dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dainprotocol/service-sdk": "^latest",
+    "@google/generative-ai": "^latest",
+    "axios": "^latest",
+    "dotenv": "^latest"
+  },
+  "devDependencies": {
+    "typescript": "^latest",
+    "@types/node": "^latest"
+  }
+}
+
